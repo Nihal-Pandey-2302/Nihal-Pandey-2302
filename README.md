@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **pandeynihal232@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1Zkik4SArfaIN-ZEDdc22Do1u1OrLcwFc/view?usp=drive_link](https://drive.google.com/file/d/1Zkik4SArfaIN-ZEDdc22Do1u1OrLcwFc/view?usp=drive_link)
+- 📄 Know about my experiences [here](https://drive.google.com/file/d/1Zkik4SArfaIN-ZEDdc22Do1u1OrLcwFc/view?usp=drive_link)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
