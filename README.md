@@ -2,7 +2,7 @@
   <img src="https://github.com/Nihal-Pandey-2302/Nihal-Pandey-2302/blob/main/Untitled%20design.png" alt="My Awesome Banner" width="800"/> 
   </p>
 <h1 align="center">Hi 👋, I'm Nihal Pandey</h1>
-Passionate Web3 developer from India, now diving deep into Rust for **Blockchain Protocol Engineering** and low-level systems. Cybersecurity enthusiast.
+Passionate Web3 developer from India, now diving deep into Rust for Blockchain Protocol Engineering and low-level systems. Cybersecurity enthusiast.
 
 * 🔭 I’m currently building an **Ethereum Indexer in Rust** to deepen my understanding of blockchain data, Rust performance, and core Ethereum node interactions.
 * 🦀 My primary focus is mastering **Rust** for systems programming and its application in the blockchain space.
