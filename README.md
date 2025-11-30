@@ -1,26 +1,97 @@
 <p align="center">
-  <img src="https://github.com/Nihal-Pandey-2302/Nihal-Pandey-2302/blob/main/Untitled%20design.png" alt="My Awesome Banner" width="800"/> 
-  </p>
+  <img src="https://github.com/Nihal-Pandey-2302/Nihal-Pandey-2302/blob/main/Untitled%20design.png" alt="Banner" width="800"/> 
+</p>
+
 <h1 align="center">Hi 👋, I'm Nihal Pandey</h1>
-Passionate Web3 developer from India, now diving deep into Rust for Blockchain Protocol Engineering and low-level systems. Cybersecurity enthusiast.
+<h3 align="center">Blockchain Protocol Engineer | Rust Developer | 4x Hackathon Winner</h3>
 
-* 🔭 I’m currently building an **Ethereum Indexer in Rust** to deepen my understanding of blockchain data, Rust performance, and core Ethereum node interactions.
-* 🦀 My primary focus is mastering **Rust** for systems programming and its application in the blockchain space.
-* 🌱 I'm actively learning about:
-    * Core **Blockchain Infrastructure** & **Protocol Development**.
-    * **P2P Networking** concepts.
-    * **Distributed Systems** principles (drawing from courses like MIT 6.033).
-    * Ethereum Internals (through my indexer project).
-* 💡 My background includes DApp development on Ethereum (Solidity, JavaScript) and multiple hackathon wins.
-* 💬 Ask me about: My Rust learning journey, Ethereum, Solidity, JavaScript, Information Security, or my indexer project!
-* 👯 I’m keen to collaborate on projects involving: Rust, Blockchain Infrastructure, Protocol Development, or P2P Systems.
+<p align="center">
+Building high-performance blockchain infrastructure with Rust. Passionate about distributed systems, protocol engineering, and solving real-world problems with Web3 technology.
+</p>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nihal-pandey-8529b6257/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/PandeyNihal23) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pandeynihal232@gmail.com) 
+---
 
-# 💻 Tech Stack:
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![Remix](https://img.shields.io/badge/remix-%23000.svg?style=for-the-badge&logo=remix&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+## 🚀 What I'm Building
 
+🔭 **Current Project:** Building a production-grade SDK for Kraken Forge Hackathon (Dec 2025)
+
+🦀 **Recent Work:** 
+- [Ethereum Indexer in Rust](https://github.com/Nihal-Pandey-2302/rust-evm-indexer) - High-performance EVM data ingester with async streaming
+- [ARIA Protocol](https://github.com/Nihal-Pandey-2302/ARIA-QIE) - AI-powered RWA verification on Cosmos (1st place, Andromeda Hackathon)
+- [Aegis Protocol](https://github.com/Nihal-Pandey-2302/Aegis-Protocol) - Autonomous insurance system using Chainlink oracles
+
+---
+
+## 🏆 Achievements
+
+**Hackathon Wins:**
+- 🥇 **1st Place** - aOS Andromeda Hackathon 2025 (2500+ teams) - $2,500
+- 🥇 **Winner** - Smart India Hackathon 2024 (Govt. of India, NTRO) - ₹100K
+- 🥇 **Winner** - Graph-e-thon 2.0 (TBI, Graphic Era) - ₹175K
+- 🥉 **3rd Place** - IEEE Sustainability Solution Hackathon 2024
+
+**Professional:**
+- Cybersecurity Research Intern, Prime Minister's Office (Govt. of India) - June-Sept 2025
+
+---
+
+## 💻 Tech Stack
+
+**Primary Focus:**
+```
+Rust | Tokio | Async Programming | Systems Design
+```
+
+**Blockchain:**
+```
+Ethereum | Solidity | CosmWasm | Stellar | Hyperledger
+ethers-rs | Web3.js | Chainlink | The Graph
+```
+
+**Backend & Infrastructure:**
+```
+PostgreSQL | Docker | REST APIs | Axum | SQLx
+AWS | GitHub Actions
+```
+
+**Languages:**
+```
+Rust 🦀 | Python 🐍 | C++ | Solidity | JavaScript | SQL | Bash
+```
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced Rust patterns for blockchain protocols
+- P2P networking & distributed consensus
+- Low-latency systems design
+- Cross-chain interoperability
+
+---
+
+## 📫 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nihal-pandey-8529b6257/)
+[![Twitter](https://img.shields.io/badge/Twitter-black.svg?logo=X&logoColor=white)](https://x.com/PandeyNihal23)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pandeynihal232@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?logo=google-chrome&logoColor=white)](https://portfolio-nihals-projects-7da31bb2.vercel.app/)
+
+---
+
+## 💡 Open to Opportunities
+
+🎯 Seeking: Backend Engineer / Blockchain Engineer roles (Remote)
+📅 Available: February 2026
+🌍 Location: India (Open to relocation)
+
+Interested in high-performance systems, blockchain infrastructure, and distributed systems engineering.
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nihal-Pandey-2302&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake-dark.svg" />
@@ -28,4 +99,8 @@ Passionate Web3 developer from India, now diving deep into Rust for Blockchain P
   <img alt="github-snake" src="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake.svg" />
 </picture>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+<p align="center">
+  <i>"Building the infrastructure that powers the next generation of decentralized applications."</i>
+</p>
