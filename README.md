@@ -3,155 +3,109 @@
 </p>
 
 <h1 align="center">Hi 👋, I'm Nihal Pandey</h1>
-<h3 align="center">Blockchain Backend & Protocol Engineer | Rust Specialist | Ex-PMO Security Researcher</h3>
+<h3 align="center">Rust Backend Engineer | High-Performance Systems | Ex-PMO Security Researcher</h3>
 
 <p align="center">
-Building production-grade blockchain infrastructure with Rust. Specializing in real-time data processing, protocol engineering, and high-performance backend systems for Web3.
+Building production-grade infrastructure with Rust. Specializing in high-throughput data pipelines, 
+real-time WebSocket systems, and blockchain indexing at scale.
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## 🔥 Featured Work
 
-### 🔥 Real-Time Infrastructure
-**[Kraken SDK (Rust)](https://github.com/Nihal-Pandey-2302/kraken-rs)** - *Hackathon Submission*
-- High-performance async WebSocket SDK achieving **648K msgs/sec** (8% faster than Python with full type safety)
-- Auto-reconnection, CRC32 validation, HMAC-SHA512 auth
-- Complete with professional TUI trading dashboard
-- `Rust` `Tokio` `WebSocket` `Real-Time` `Performance`
+### **High-Throughput Systems**
 
-**[EVM Event Watchdog](https://github.com/Nihal-Pandey-2302/evm_event_watchdog)** 
-- Multi-chain security monitor (Ethereum/Polygon/Arbitrum) detecting exploits in real-time
-- Sub-second detection latency with Telegram/Discord alerts
-- Zero-latency TUI dashboard with atomic state management
+**[Kraken Market Data SDK](https://github.com/Nihal-Pandey-2302/kraken-rs)** | Rust, Tokio, WebSockets
+- Async WebSocket client processing **648,000 messages/sec** with full type safety
+- Built-in reconnection logic, CRC32 validation, and HMAC-SHA512 authentication
+- 8% faster than official Python SDK while maintaining 100% schema compliance
+- *Global Top-Tier Finalist, Kraken Forge Hackathon 2025*
+
+**[EVM Event Watchdog](https://github.com/Nihal-Pandey-2302/evm_event_watchdog)** | Rust, Security, Multi-Chain
+- Real-time exploit detection across Ethereum, Polygon, and Arbitrum with sub-second latency
+- Terminal UI dashboard with atomic state management and zero-latency updates
+- Telegram/Discord webhook integration for instant security alerts
 - 🔗 [Live Demo](https://nihal-pandey-2302.github.io/evm_event_watchdog/)
-- `Rust` `Security` `WebSocket` `Multi-Chain` `Real-Time`
 
-### 📊 Data Infrastructure
-**[Ethereum Indexer in Rust](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)**
-- Production-grade EVM data ingestion pipeline with async streaming
-- PostgreSQL storage with RESTful query API (pagination, filters, block range)
-- Built with Tokio, ethers-rs, Axum, SQLx
-- `Rust` `PostgreSQL` `REST API` `Blockchain Indexing`
+### **Data Infrastructure**
 
-**[Sui Transaction Explainer](https://sui-tx-explainer.vercel.app/)** - *Sui RFP Program*
-- Translates complex blockchain transactions into human-readable summaries
-- Integrates Sui RPC + Groq LLM (Llama 3.3) for AI-powered analysis
-- Zero backend infrastructure costs (client-side architecture)
+**[Ethereum Data Indexer](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)** | Rust, PostgreSQL, Axum
+- Production-grade EVM ingestion pipeline handling 100+ concurrent requests with **sub-millisecond response times**
+- Atomic SQL transactions ensuring consistency across millions of rows during service crashes
+- RESTful API with pagination, filtering, and block range queries using Axum + SQLx
+
+**[InjectiveQL](https://github.com/Nihal-Pandey-2302/injectiveql)** | TypeScript, GraphQL, PostgreSQL
+- GraphQL gateway with pre-computed analytics (volatility, liquidity scoring, arbitrage detection)
+- Multi-tier caching strategy (Redis + PostgreSQL) achieving <15ms average response times
+- NFT-based identity system with tiered rate limiting
+- 📚 [Live Docs](https://nihal-pandey-2302.github.io/injectiveql/)
+
+### **Web3 Innovation**
+
+**[LazorKit Solana Identity](https://github.com/Nihal-Pandey-2302/lazorkit-solana-starter)** | TypeScript, Next.js, WebAuthn
+- Biometric-native wallet interface using Passkeys (WebAuthn), eliminating seed phrases
+- Gasless onboarding via Paymaster for zero-balance users
+- Cross-platform biometric synchronization (currently engineering mobile support)
+
+**[Sui Transaction Explainer](https://sui-tx-explainer.vercel.app/)** | React, Sui RPC, AI Integration
+- AI-powered transaction analysis translating complex blockchain operations into readable summaries
+- Groq LLM (Llama 3.3) integration with zero backend infrastructure costs
+- *Built for Sui RFP Program*
 - 🔗 [Live App](https://sui-tx-explainer.vercel.app/)
-- `TypeScript` `React` `Sui` `RPC Integration` `AI`
-
-### 🏆 Award-Winning Projects
-**[A.R.I.A. Protocol](https://github.com/Nihal-Pandey-2302/ARIA-QIE)** - *🥇 1st Place, Andromeda Hackathon ($2,500)*
-- AI-powered RWA verification and tokenization on Cosmos
-- CosmWasm smart contracts with automated revenue distribution
-- IPFS storage + multi-ADO composition (Marketplace → Splitter → Staking)
-- `Rust` `CosmWasm` `AI` `RWA` `DeFi`
-
-**[Agentless Vulnerability Scanner](https://github.com/username/project)** - *🥇 Winner, Smart India Hackathon 2024*
-- Backend security scanning system for Windows (Python/PowerShell)
-- 80% reduction in manual security analysis
-- Developed for NTRO, Govt. of India (Project under NDA)
-- `Python` `Security` `Backend` `Government`
 
 ---
 
-## 🏆 Recognition
+## 🏆 Recognition & Impact
 
-| Year | Achievement | Prize | Context |
+| Year | Achievement | Award | Context |
 |------|-------------|-------|---------|
-| 2025 | **🥇 Winner** - aOS Andromeda Hackathon | $2,500 | 1st/2500+ teams |
-| 2024 | **🥇 Winner** - Smart India Hackathon (NTRO) | ₹100K | Govt. of India |
+| 2025 | **Global Top-Tier Finalist** - Kraken Forge Hackathon | - | Performance Engineering |
+| 2025 | **🥇 1st Place** - Andromeda Hackathon (aOS) | $2,500 | 1st out of 2,500+ teams |
+| 2024 | **🥇 Winner** - Smart India Hackathon (NTRO) | ₹100K | Government of India |
 | 2024 | **🥇 Winner** - Graph-e-thon 2.0 | ₹175K | TBI Graphic Era |
-| 2024 | **🥉 3rd Place** - IEEE Sustainability Hackathon | - | Blockchain Track |
 
 **Professional Experience:**
-- **Cybersecurity Research Intern** @ Prime Minister's Office, Govt. of India (June-Sept 2025)
-  - Threat intelligence analysis & red team exercises
-  - Critical infrastructure vulnerability assessment
+- **Cybersecurity Research Intern** @ Prime Minister's Office (PMO), Govt. of India (June-Sept 2025)
+  - Threat intelligence analysis, adversarial simulations, critical infrastructure protection
+  - Custom Rust-based security tooling (Confidential - NDA)
 
 ---
 
-## 💻 Tech Stack
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-### Backend & Systems
-```
-Rust         ████████████ 95%
-Tokio        ████████████ 90%
-PostgreSQL   ██████████░░ 85%
-Docker       ██████████░░ 80%
-REST APIs    ████████████ 90%
-WebSockets   ████████████ 90%
-```
-
-</td>
-<td valign="top" width="33%">
-
-### Blockchain
-```
-Ethereum/EVM ████████████ 95%
-Solidity     ████████████ 90%
-CosmWasm     ██████████░░ 80%
-ethers-rs    ████████████ 90%
-Sui          ████████░░░░ 70%
-Web3.js      ████████████ 85%
-```
-
-</td>
-<td valign="top" width="33%">
-
-### Other
-```
-Python       ████████████ 90%
-JavaScript   ██████████░░ 85%
-C++          ████████░░░░ 70%
-AWS          ████████░░░░ 75%
-Git/CI/CD    ████████████ 90%
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎯 What I Do Best
-
+## 💻 Core Competencies
 ```rust
-impl BlockchainEngineer for Nihal {
-    fn specialization() -> Vec<&'static str> {
-        vec![
-            "🦀 High-performance Rust systems",
-            "⚡ Real-time data streaming & WebSockets",
-            "🔗 Multi-chain indexing & monitoring",
-            "🔐 Security analysis & threat detection",
-            "📊 Protocol-level architecture",
-            "🛠️ Production-grade infrastructure"
-        ]
+impl RustEngineer for Nihal {
+    fn expertise() -> TechStack {
+        TechStack {
+            languages: vec!["Rust (Expert)", "Python", "TypeScript", "Solidity", "C++"],
+            async_runtime: vec!["Tokio", "async-std"],
+            databases: vec!["PostgreSQL (SQLx)", "Redis"],
+            web_frameworks: vec!["Axum", "Actix-web"],
+            blockchain: vec!["ethers-rs", "Solana SDK", "CosmWasm"],
+            protocols: vec!["WebSocket", "REST", "GraphQL", "RPC"],
+        }
     }
     
-    fn currently_building() -> Project {
-        Project {
-            name: "Kraken SDK",
-            tech: "Rust + Tokio + WebSocket",
-            focus: "Low-latency trading infrastructure"
-        }
+    fn specialization() -> Vec<&'static str> {
+        vec![
+            "🚀 Sub-millisecond latency systems",
+            "⚡ Real-time data streaming (648k msgs/sec)",
+            "🔗 Multi-chain indexing & monitoring",
+            "🔐 Security-critical infrastructure",
+            "🎯 Atomic transaction processing",
+        ]
     }
 }
 ```
 
 ---
 
-## 🌱 Currently Exploring
+## 🎯 What I'm Building
 
-- **Advanced Rust**: Async patterns, zero-copy serialization, lock-free data structures
-- **Distributed Systems**: P2P networking (libp2p), consensus algorithms
-- **Protocol Engineering**: Cross-chain communication, MEV infrastructure
-- **Performance Optimization**: Sub-millisecond latency systems
+**Current Focus:**
+- **Performance Engineering**: Lock-free data structures, zero-copy serialization
+- **Distributed Systems**: P2P networking (libp2p concepts), consensus algorithms
+- **Protocol Design**: Cross-chain communication, MEV infrastructure
 
 ---
 
@@ -175,20 +129,33 @@ impl BlockchainEngineer for Nihal {
 ---
 
 ## 💼 Open to Opportunities
-
 ```yaml
-Role: Backend Engineer / Blockchain Protocol Engineer
-Type: Full-time | Freelance | Remote
-Available: February 2026
+Role: Rust Backend Engineer | Protocol Engineer | Infrastructure
+Type: Full-time | Remote
+Available: May 2026
 Location: India (Open to relocation)
-Focus: 
-  - High-performance blockchain infrastructure
-  - Real-time data processing systems
-  - Protocol-level development
+Ideal Companies: 
+  - Blockchain infrastructure (L1/L2)
+  - High-frequency trading systems
+  - Real-time data platforms
   - Security-critical applications
 ```
 
-**Interested in working together?** Reach out via [email](mailto:pandeynihal232@gmail.com) or [LinkedIn](https://linkedin.com/in/nihal-pandey-8529b6257/)!
+**Looking for:** Teams building performance-critical systems where Rust's memory safety and concurrency shine.
+
+---
+
+### 📂 Other Projects
+
+<details>
+<summary>Click to expand hackathon projects & experiments</summary>
+
+- **[Superteam Academy](https://github.com/superteam-brazil/academy-frontend)** - Full-stack Solana LMS (Next.js 15, Groq AI)
+- **[Deriverse Analytics](https://github.com/Nihal-Pandey-2302/Deriverse-TA-Dashboard)** - Trading dashboard with PnL analytics
+- **[KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)** - Multi-agent coordination on Kaspa blockchain
+- **[A.R.I.A. Protocol](https://github.com/Nihal-Pandey-2302/ARIA-QIE)** - RWA tokenization on Cosmos (CosmWasm)
+
+</details>
 
 ---
 
@@ -201,10 +168,9 @@ Focus:
 ---
 
 <p align="center">
-  <i>"Building the infrastructure layer that powers decentralized applications at scale."</i>
+  <i>"Building infrastructure that powers decentralized systems at scale."</i>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Nihal-Pandey-2302&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
-```
