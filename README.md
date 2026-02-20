@@ -6,8 +6,7 @@
 <h3 align="center">Rust Backend Engineer | High-Performance Systems | Ex-PMO Security Researcher</h3>
 
 <p align="center">
-Building production-grade infrastructure with Rust. Specializing in high-throughput data pipelines, 
-real-time WebSocket systems, and blockchain indexing at scale.
+Rust backend engineer building high-throughput systems and blockchain infrastructure.
 </p>
 
 ---
