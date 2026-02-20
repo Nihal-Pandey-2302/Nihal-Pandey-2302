@@ -11,7 +11,7 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 
 ---
 
-## 🔥 Featured Work
+##  Featured Work
 
 ### **High-Throughput Systems**
 
@@ -25,7 +25,7 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 - Real-time exploit detection across Ethereum, Polygon, and Arbitrum with sub-second latency
 - Terminal UI dashboard with atomic state management and zero-latency updates
 - Telegram/Discord webhook integration for instant security alerts
-- 🔗 [Live Demo](https://nihal-pandey-2302.github.io/evm_event_watchdog/)
+-  [Live Demo](https://nihal-pandey-2302.github.io/evm_event_watchdog/)
 
 ### **Data Infrastructure**
 
@@ -38,7 +38,7 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 - GraphQL gateway with pre-computed analytics (volatility, liquidity scoring, arbitrage detection)
 - Multi-tier caching strategy (Redis + PostgreSQL) achieving <15ms average response times
 - NFT-based identity system with tiered rate limiting
-- 📚 [Live Docs](https://nihal-pandey-2302.github.io/injectiveql/)
+-  [Live Docs](https://nihal-pandey-2302.github.io/injectiveql/)
 
 ### **Web3 Innovation**
 
@@ -51,18 +51,18 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 - AI-powered transaction analysis translating complex blockchain operations into readable summaries
 - Groq LLM (Llama 3.3) integration with zero backend infrastructure costs
 - *Built for Sui RFP Program*
-- 🔗 [Live App](https://sui-tx-explainer.vercel.app/)
+-  [Live App](https://sui-tx-explainer.vercel.app/)
 
 ---
 
-## 🏆 Recognition & Impact
+##  Recognition & Impact
 
 | Year | Achievement | Award | Context |
 |------|-------------|-------|---------|
 | 2025 | **Global Top-Tier Finalist** - Kraken Forge Hackathon | - | Performance Engineering |
-| 2025 | **🥇 1st Place** - Andromeda Hackathon (aOS) | $2,500 | 1st out of 2,500+ teams |
-| 2024 | **🥇 Winner** - Smart India Hackathon (NTRO) | ₹100K | Government of India |
-| 2024 | **🥇 Winner** - Graph-e-thon 2.0 | ₹175K | TBI Graphic Era |
+| 2025 | ** 1st Place** - Andromeda Hackathon (aOS) | $2,500 | 1st out of 2,500+ teams |
+| 2024 | ** Winner** - Smart India Hackathon (NTRO) | ₹100K | Government of India |
+| 2024 | ** Winner** - Graph-e-thon 2.0 | ₹175K | TBI Graphic Era |
 
 **Professional Experience:**
 - **Cybersecurity Research Intern** @ Prime Minister's Office (PMO), Govt. of India (June-Sept 2025)
@@ -99,7 +99,7 @@ impl RustEngineer for Nihal {
 
 ---
 
-## 🎯 What I'm Building
+##  What I'm Building
 
 **Current Focus:**
 - **Performance Engineering**: Lock-free data structures, zero-copy serialization
@@ -108,7 +108,7 @@ impl RustEngineer for Nihal {
 
 ---
 
-## 📫 Let's Connect
+##  Let's Connect
 
 <p align="center">
   <a href="https://linkedin.com/in/nihal-pandey-8529b6257/">
@@ -158,13 +158,7 @@ Ideal Companies:
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake.svg" />
-</picture>
 
----
 
 <p align="center">
   <i>"Building infrastructure that powers decentralized systems at scale."</i>
