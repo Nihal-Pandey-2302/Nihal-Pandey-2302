@@ -3,10 +3,10 @@
 </p>
 
 <h1 align="center">Hi 👋, I'm Nihal Pandey</h1>
-<h3 align="center">Rust Backend Engineer | High-Performance Systems | Ex-PMO Security Researcher</h3>
+<h3 align="center">Backend Infrastructure Engineer | Rust, Distributed Systems, Real-Time Data</h3>
 
 <p align="center">
-Rust backend engineer building high-throughput systems and blockchain infrastructure.
+Backend infrastructure engineer building real-time ingestion systems, distributed services, and reliability-critical backend infrastructure using Rust and PostgreSQL.
 </p>
 
 ---
@@ -18,8 +18,13 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 **[Kraken Market Data SDK](https://github.com/Nihal-Pandey-2302/kraken-rs)** | Rust, Tokio, WebSockets
 - Async WebSocket client processing **648,000 messages/sec** with full type safety
 - Built-in reconnection logic, CRC32 validation, and HMAC-SHA512 authentication
-- 8% faster than official Python SDK while maintaining 100% schema compliance
+- 100% schema compliance
 - *Global Top-Tier Finalist, Kraken Forge Hackathon 2025*
+
+**[Ethereum Data Indexer](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)** | Rust, PostgreSQL, Axum
+- Production-grade EVM ingestion pipeline handling 100+ concurrent requests with **sub-millisecond response times**
+- Atomic SQL transactions ensuring consistency across millions of rows during service crashes
+- RESTful API with pagination, filtering, and block range queries using Axum + SQLx
 
 **[EVM Event Watchdog](https://github.com/Nihal-Pandey-2302/evm_event_watchdog)** | Rust, Security, Multi-Chain
 - Real-time exploit detection across Ethereum, Polygon, and Arbitrum with sub-second latency
@@ -29,48 +34,13 @@ Rust backend engineer building high-throughput systems and blockchain infrastruc
 
 ### **Data Infrastructure**
 
-**[Ethereum Data Indexer](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)** | Rust, PostgreSQL, Axum
-- Production-grade EVM ingestion pipeline handling 100+ concurrent requests with **sub-millisecond response times**
-- Atomic SQL transactions ensuring consistency across millions of rows during service crashes
-- RESTful API with pagination, filtering, and block range queries using Axum + SQLx
-
 **[InjectiveQL](https://github.com/Nihal-Pandey-2302/injectiveql)** | TypeScript, GraphQL, PostgreSQL
 - GraphQL gateway with pre-computed analytics (volatility, liquidity scoring, arbitrage detection)
 - Multi-tier caching strategy (Redis + PostgreSQL) achieving <15ms average response times
 - NFT-based identity system with tiered rate limiting
 -  [Live Docs](https://nihal-pandey-2302.github.io/injectiveql/)
 
-### **Web3 Innovation**
-
-**[LazorKit Solana Identity](https://github.com/Nihal-Pandey-2302/lazorkit-solana-starter)** | TypeScript, Next.js, WebAuthn
-- Biometric-native wallet interface using Passkeys (WebAuthn), eliminating seed phrases
-- Gasless onboarding via Paymaster for zero-balance users
-- Cross-platform biometric synchronization (currently engineering mobile support)
-
-**[Sui Transaction Explainer](https://sui-tx-explainer.vercel.app/)** | React, Sui RPC, AI Integration
-- AI-powered transaction analysis translating complex blockchain operations into readable summaries
-- Groq LLM (Llama 3.3) integration with zero backend infrastructure costs
-- *Built for Sui RFP Program*
--  [Live App](https://sui-tx-explainer.vercel.app/)
-
 ---
-
-##  Recognition & Impact
-
-| Year | Achievement | Award | Context |
-|------|-------------|-------|---------|
-| 2025 | **Global Top-Tier Finalist** - Kraken Forge Hackathon | - | Performance Engineering |
-| 2025 | ** 1st Place** - Andromeda Hackathon (aOS) | $2,500 | 1st out of 2,500+ teams |
-| 2024 | ** Winner** - Smart India Hackathon (NTRO) | ₹100K | Government of India |
-| 2024 | ** Winner** - Graph-e-thon 2.0 | ₹175K | TBI Graphic Era |
-
-**Professional Experience:**
-- **Cybersecurity Research Intern** @ Prime Minister's Office (PMO), Govt. of India (June-Sept 2025)
-  - Threat intelligence analysis, adversarial simulations, critical infrastructure protection
-  - Custom Rust-based security tooling (Confidential - NDA)
-
----
-
 ## 💻 Core Competencies
 ```rust
 impl RustEngineer for Nihal {
@@ -87,11 +57,11 @@ impl RustEngineer for Nihal {
     
     fn specialization() -> Vec<&'static str> {
         vec![
-            "🚀 Sub-millisecond latency systems",
-            "⚡ Real-time data streaming (648k msgs/sec)",
-            "🔗 Multi-chain indexing & monitoring",
-            "🔐 Security-critical infrastructure",
-            "🎯 Atomic transaction processing",
+            "Sub-millisecond latency systems",
+            "Real-time data streaming (648k msgs/sec)",
+            "Multi-chain indexing & monitoring",
+            "Security-critical infrastructure",
+            "Atomic transaction processing",
         ]
     }
 }
@@ -99,12 +69,19 @@ impl RustEngineer for Nihal {
 
 ---
 
-##  What I'm Building
+##  Recognition & Impact
 
-**Current Focus:**
-- **Performance Engineering**: Lock-free data structures, zero-copy serialization
-- **Distributed Systems**: P2P networking (libp2p concepts), consensus algorithms
-- **Protocol Design**: Cross-chain communication, MEV infrastructure
+| Year | Achievement | Award | Context |
+|------|-------------|-------|---------|
+| 2025 | **Global Top-Tier Finalist** - Kraken Forge Hackathon | - | Performance Engineering |
+| 2025 | ** 1st Place** - Andromeda Hackathon (aOS) | $2,500 | 1st out of 2,500+ teams |
+| 2024 | ** Winner** - Smart India Hackathon (NTRO) | ₹100K | Government of India |
+| 2024 | ** Winner** - Graph-e-thon 2.0 | ₹175K | TBI Graphic Era |
+
+**Professional Experience:**
+- **Cybersecurity Research Intern** @ Prime Minister's Office (PMO), Govt. of India (June-Sept 2025)
+  - Threat intelligence analysis, adversarial simulations, critical infrastructure protection
+  - Custom Rust-based security tooling (Confidential - NDA)
 
 ---
 
@@ -131,7 +108,7 @@ impl RustEngineer for Nihal {
 ```yaml
 Role: Rust Backend Engineer | Protocol Engineer | Infrastructure
 Type: Full-time | Remote
-Available: May 2026
+Available: Immediately
 Location: India (Open to relocation)
 Ideal Companies: 
   - Blockchain infrastructure (L1/L2)
