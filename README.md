@@ -26,6 +26,12 @@ Backend infrastructure engineer building real-time ingestion systems, distribute
 - Atomic SQL transactions ensuring consistency across millions of rows during service crashes
 - RESTful API with pagination, filtering, and block range queries using Axum + SQLx
 
+**[A.R.I.A. – RWA Verification & Tokenization Protocol](https://github.com/Nihal-Pandey-2302/ARIA-QIE)** | Solidity, IPFS, React, Python
+- End-to-end system that verifies real-world documents and mints them as **ERC-721 NFTs**
+- Tamper-proof metadata storage using **IPFS + on-chain verification**
+- Marketplace, fractionalization, and oracle-based pricing architecture
+- *🏆 1st Place – Andromeda aOS Global Buildathon (3000+ teams)*
+
 **[EVM Event Watchdog](https://github.com/Nihal-Pandey-2302/evm_event_watchdog)** | Rust, Security, Multi-Chain
 - Real-time exploit detection across Ethereum, Polygon, and Arbitrum with sub-second latency
 - Terminal UI dashboard with atomic state management and zero-latency updates
