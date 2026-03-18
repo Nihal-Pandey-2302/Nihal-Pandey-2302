@@ -57,7 +57,7 @@ TypeScript for everything else.
 
 ## Solana
 
-**[Solana Stablecoin Standard (SSS)](https://github.com/Nihal-Pandey-2302/solana-stablecoin-standard)** | Rust · Anchor · Token-2022 · TypeScript · Next.js · Docker
+**[Solana Stablecoin Standard (SSS)](https://github.com/Nihal-Pandey-2302/sss-solana-stablecoin-sdk)** | Rust · Anchor · Token-2022 · TypeScript · Next.js · Docker
 - OpenZeppelin-equivalent SDK for Solana stablecoins: SSS-1 minimal, SSS-2 compliant (Transfer Hook blacklist enforcement, Permanent Delegate seizure), SSS-3 private (ZK Confidential Transfers PoC)
 - TypeScript SDK, 15-command CLI, Helius webhook indexer to PostgreSQL, Docker backend, Next.js admin dashboard with live Switchboard oracle feeds
 - **19/19 Anchor tests passing**, deployed live on Solana Devnet
