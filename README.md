@@ -3,16 +3,18 @@
 </p>
 
 <h1 align="center">Nihal Pandey</h1>
-<h3 align="center">Backend and Blockchain Engineer | Rust · Node.js · TypeScript · Solana · EVM</h3>
+<h3 align="center">Backend Engineer | OSS Contributor at ParadeDB (YC S23) · Rust · Node.js · PostgreSQL</h3>
 
 <p align="center">
-I build high-throughput backend systems and the blockchain infrastructure around them.
-My backend work includes a Rust WebSocket engine at 648k msgs/sec, an EVM indexer handling
-10M+ transactions, a GraphQL gateway at 15ms response time, and a production Node.js webhook
-processor with job queues, dead letter queues, and full observability. On Solana I have shipped
-a Token-2022 stablecoin SDK with Transfer Hooks and ZK proofs and an on-chain job queue with
-a native binary max-heap. I write Rust for performance-critical systems and Node.js with
-TypeScript for everything else.
+I build high-throughput backend systems in Rust and Node.js, with a focus on 
+performance, reliability, and correctness. Currently contributing to ParadeDB 
+(YC S23) - PR #4765 merged into the production Rust codebase, three more in 
+review touching the BM25 scan path, JoinScan correctness, and query pipeline 
+internals. Previously built Rust security tooling at the Prime Minister's Office, 
+Government of India, deployed across critical infrastructure. On the blockchain 
+side I've shipped production systems on Solana, EVM, and Stellar - from a 
+Token-2022 stablecoin SDK with ZK proofs to an EVM indexer handling 10M+ 
+transactions with atomic SQL guarantees.
 </p>
 
 <p align="center">
