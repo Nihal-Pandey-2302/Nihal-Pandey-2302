@@ -125,6 +125,7 @@ transactions with atomic SQL guarantees.
 
 | Year | Achievement | Prize |
 |------|-------------|-------|
+| 2026 | 3 Prizes, Kaspathon, 500+ global teams | USD 1,500 |
 | 2025 | 1st place, Andromeda aOS Buildathon, 2,500+ global teams | USD 2,500 |
 | 2025 | Global Top-Tier Finalist, Kraken Forge Hackathon | — |
 | 2024 | Winner, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants | INR 100K |
