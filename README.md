@@ -40,8 +40,8 @@ transactions with atomic SQL guarantees.
 | PR | Status | What it does |
 |---|---|---|
 | [#4765](https://github.com/paradedb/paradedb/pull/4765) | ✅ Merged | Removed `ctid` from `SearchIndexScore`; consolidated duplicate lookup logic into a centralized `resolve_ctid` helper across 5 execution paths |
-| [#4924](https://github.com/paradedb/paradedb/pull/4924) | 🔄 In Review | Fixed nested `ExecutorRun` panic in `fake_aminsertcleanup` on PG16; replaced depth-counter with RAII `FrameGuard` after identifying a second correctness bug mid-review |
-| [#4763](https://github.com/paradedb/paradedb/pull/4763) | 🔄 In Review | Fixed `JoinScan` returning wrong rows on self-joins with duplicate sort keys; caught a column misbinding in my own fix and rebuilt using physical index mapping |
+| [#4924](https://github.com/paradedb/paradedb/pull/4924) | ✅ Merged | Fixed nested `ExecutorRun` panic in `fake_aminsertcleanup` on PG16; replaced depth-counter with RAII `FrameGuard` after identifying a second correctness bug mid-review |
+| [#4763](https://github.com/paradedb/paradedb/pull/4763) | ✅ Merged | Fixed `JoinScan` returning wrong rows on self-joins with duplicate sort keys; caught a column misbinding in my own fix and rebuilt using physical index mapping |
 | [#4752](https://github.com/paradedb/paradedb/pull/4752) | 🔄 In Review | Added partition-aware BM25 search via SPI expansion; fixed lifecycle panics in `begin_custom_scan` and `rescan` for partitioned index relations |
 
 ---
