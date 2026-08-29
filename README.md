@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Nihal Pandey</h1>
-<h3 align="center">Backend Engineer | OSS Contributor at ParadeDB (YC S23) · Rust · Node.js · PostgreSQL</h3>
+<h3 align="center">Founding Engineer @ Tvaram | OSS Contributor at ParadeDB (YC S23) · Rust · Node.js · PostgreSQL</h3>
 
 <p align="center">
 I build high-throughput backend systems in Rust and Node.js, with a focus on 
