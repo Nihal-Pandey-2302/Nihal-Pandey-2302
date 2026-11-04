@@ -117,12 +117,5 @@ More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories)
 | **Infra** | Docker Compose, GitHub Actions, AWS (EC2, S3), Prometheus/Grafana |
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Nihal-Pandey-2302/Nihal-Pandey-2302/output/github-snake.svg" alt="Contribution snake"/>
-  </picture>
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=Nihal-Pandey-2302&label=Profile%20Views&color=0e75b6&style=flat"/>
 </p>
