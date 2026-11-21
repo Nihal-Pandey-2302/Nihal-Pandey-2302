@@ -24,7 +24,7 @@ production systems on Solana, EVM, Stellar and Kaspa, winning five hackathons al
   <a href="mailto:pandeynihal232@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://portfolio-nihals-projects-7da31bb2.vercel.app/">
+  <a href="https://nihalpandey.dev/">
     <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
