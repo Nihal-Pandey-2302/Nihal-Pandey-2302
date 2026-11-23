@@ -1,7 +1,5 @@
 <a href="https://nihalpandey.dev/"><img src="assets/banner.png" width="846" alt="Nihal Pandey. Backend and database engineer, working in and around Postgres. nihalpandey.dev"></a>
 
-<h3 align="center">Senior Founding Engineer & Tech Lead @ Tvaram · Ex-PMO, Govt. of India · ParadeDB contributor · Author of poolproof</h3>
-
 <p align="center"><b>Rust · Go · TypeScript · PostgreSQL · Redis</b></p>
 
 <p align="center">
@@ -44,7 +42,7 @@ Poolers like PgBouncer, PgDog and Supavisor are meant to be invisible. In transa
 
 ### [ParadeDB](https://github.com/paradedb/paradedb) (YC S23) · Rust · PostgreSQL · Tantivy
 
-**3 pull requests merged, 867 lines across 15 files.**
+**3 pull requests merged.**
 
 | PR | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does |
 |---|:---:|---|
@@ -114,24 +112,14 @@ More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories)
 
 ## Hackathons
 
-| Year | Result | Prize |
-|---|---|---|
-| 2026 | **1st Prize**, UK AI Agent Hackathon, Kaspa Track ([KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)) | USD 1,000 |
-| 2026 | **3 prizes** at Kaspathon (Top 5 Main Prize, Real-Time Data, Most Creative Use of Kaspa), 500+ global teams | USD 1,200 |
-| 2025 | **1st place**, Andromeda aOS Buildathon, 2,500+ global teams ([A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)) | USD 2,500 |
-| 2025 | **Global Top-Tier Finalist**, Kraken Forge Hackathon, Performance Optimization ([kraken-rs](https://github.com/Nihal-Pandey-2302/kraken-rs)) | |
-| 2024 | **Winner**, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants | INR 100K |
-| 2024 | **Winner**, Graph-e-thon 2.0, Graphic Era TBI | INR 175K |
-
-## Skills
-
-| | |
+| Year | Result |
 |---|---|
-| **Languages** | Rust, Go, TypeScript, Python, SQL, Solidity |
-| **Backend** | Tokio, Axum, SQLx, Express, Bull, FastAPI, GraphQL, WebSockets, zero-copy deserialization |
-| **Data** | PostgreSQL (executor internals, extensions, wire protocol, connection poolers), Redis |
-| **Chains** | Solana (Anchor, Token-2022), EVM (Solidity, Hardhat), Stellar (Soroban), Kaspa |
-| **Infra** | Docker Compose, GitHub Actions, AWS (EC2, S3), Prometheus/Grafana |
+| 2026 | **1st Prize**, UK AI Agent Hackathon, Kaspa Track ([KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)) |
+| 2026 | **3 prizes** at Kaspathon (Top 5 Main Prize, Real-Time Data, Most Creative Use of Kaspa), 500+ teams |
+| 2025 | **1st place**, Andromeda aOS Buildathon, 2,500+ teams ([A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)) |
+| 2025 | **Finalist**, Kraken Forge Hackathon, Performance Optimization ([kraken-rs](https://github.com/Nihal-Pandey-2302/kraken-rs)) |
+| 2024 | **Winner**, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants |
+| 2024 | **Winner**, Graph-e-thon 2.0, Graphic Era TBI |
 
 <p align="center">
   <sub>The longer version, with the case studies, is at <a href="https://nihalpandey.dev/">nihalpandey.dev</a>.</sub>
