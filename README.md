@@ -46,8 +46,8 @@ Poolers like PgBouncer, PgDog and Supavisor are meant to be invisible. In transa
 
 **3 pull requests merged, 867 lines across 15 files.**
 
-| PR | Status | What it does |
-|---|---|---|
+| PR | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does |
+|---|:---:|---|
 | [#4763](https://github.com/paradedb/paradedb/pull/4763) | <img src="assets/status-merged.png" height="24" alt="Merged"> | `JoinScan` returned wrong rows when a self-join sorted on a column name both sides share. Late materialization was deduplicating columns by name, so I rewrote physical projection to bind them by index. A second case run during review showed my fix misbinding, and I rebuilt it. [Case study](https://nihalpandey.dev/work/joinscan-wrong-rows) |
 | [#4924](https://github.com/paradedb/paradedb/pull/4924) | <img src="assets/status-merged.png" height="24" alt="Merged"> | A nested `ExecutorRun` panicked in `fake_aminsertcleanup` on PG16. Review found a second bug in my first fix, on the recursive DML path, so I replaced its depth counter with an RAII `FrameGuard` that gives every nesting level its own frame. [Case study](https://nihalpandey.dev/work/nested-executor-run) |
 | [#4765](https://github.com/paradedb/paradedb/pull/4765) | <img src="assets/status-merged.png" height="24" alt="Merged"> | Removed `ctid` from `SearchIndexScore` in favour of batched lookups, folding 5 duplicated ctid-lookup blocks into one helper used by 6 execution paths. |
