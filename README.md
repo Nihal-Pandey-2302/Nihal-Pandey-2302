@@ -1,110 +1,127 @@
-<p align="center">
-  <img src="https://github.com/Nihal-Pandey-2302/Nihal-Pandey-2302/blob/main/Untitled%20design.png" alt="Banner" width="800"/>
-</p>
+<a href="https://nihalpandey.dev/"><img src="assets/banner.png" width="846" alt="Nihal Pandey. Backend and database engineer, working in and around Postgres. nihalpandey.dev"></a>
 
-<h1 align="center">Nihal Pandey</h1>
 <h3 align="center">Senior Founding Engineer & Tech Lead @ Tvaram · Ex-PMO, Govt. of India · ParadeDB contributor · Author of poolproof</h3>
+
 <p align="center"><b>Rust · Go · TypeScript · PostgreSQL · Redis</b></p>
 
 <p align="center">
-I build backend and data systems where being nearly correct is not good enough.
-Most of my time goes into PostgreSQL: its executor internals at ParadeDB, the connection
-poolers in front of it with poolproof, and the ingestion pipelines behind it at Tvaram.
-Before that I wrote Rust security tooling at the Prime Minister's Office, and shipped
-production systems on Solana, EVM, Stellar and Kaspa, winning five hackathons along the way.
+  Most of my open-source work is on PostgreSQL: executor fixes in ParadeDB, and poolproof, which tests the connection poolers in front of it. At Tvaram I built the backends for Tasvam and MailTitan, both launching soon. Before that I wrote Rust security tooling at the Prime Minister's Office and built on Solana, EVM, Stellar and Kaspa, winning five hackathons along the way.
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/nihal-pandey-8529b6257/">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://x.com/PandeyNihal23">
-    <img src="https://img.shields.io/badge/Twitter-000000.svg?style=for-the-badge&logo=X&logoColor=white"/>
-  </a>
-  <a href="mailto:pandeynihal232@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://nihalpandey.dev/">
-    <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a>
+  <a href="https://nihalpandey.dev/"><img src="assets/btn-site.png" height="36" alt="nihalpandey.dev"></a>&nbsp;
+  <a href="https://linkedin.com/in/nihal-pandey-8529b6257/"><img src="assets/btn-linkedin.png" height="36" alt="LinkedIn"></a>&nbsp;
+  <a href="https://x.com/PandeyNihal23"><img src="assets/btn-x.png" height="36" alt="X"></a>&nbsp;
+  <a href="mailto:pandeynihal232@gmail.com"><img src="assets/btn-email.png" height="36" alt="Email"></a>
 </p>
-
----
-
-## Experience
-
-**Senior Founding Engineer & Tech Lead · [Tvaram](https://tvaram.com/)** · Bengaluru · June 2026 – present\
-Building **[Tasvam](https://tasvam.ai/)** and **[MailTitan](https://mailtitan.ai/)**.
-- **Tasvam**, Tvaram's data intelligence platform, merges customer records scattered across systems into unified, enriched profiles for audience building. I own its backend architecture, storage layer, ingestion pipeline and production deployment (Go · PostgreSQL · Redis)
-- **MailTitan** is enterprise email relay: dedicated sending infrastructure with separate IP pools for transactional and marketing traffic, automated bounce handling, and signed, idempotent delivery webhooks
-
-**Cybersecurity Research Intern · Prime Minister's Office (PMO), Government of India** · New Delhi · June – Sept 2025
-- Wrote Tokio-based Rust tooling that automated vulnerability scanning across critical government infrastructure, cutting manual assessment time by **over 60%** with no downtime during rollout
-- Threat-modelling workflows I built were picked up by **2 internal teams**
-- Details under NDA
-
-**B.Tech, Electronics Engineering** · Rajiv Gandhi Institute of Petroleum Technology · 2022 – 2026
-
----
 
 ## Open Source
 
-### [poolproof](https://github.com/Nihal-Pandey-2302/poolproof) · Rust · find out what breaks when you put a connection pooler in front of Postgres
+### [poolproof](https://github.com/Nihal-Pandey-2302/poolproof) · Rust
+
+**Find out what breaks when you put a connection pooler in front of Postgres.**
 
 Poolers like PgBouncer, PgDog and Supavisor are meant to be invisible. In transaction mode they mostly are, until a `SET` leaks to another client, a temp table appears in someone else's session, or half a query string silently never runs. poolproof replays small scenarios against plain Postgres and then through the pooler, and reports every step where the two differ. Postgres is the oracle, so no scenario hardcodes expected output.
 
-- **50 scenarios** across **PgBouncer, PgDog, Supavisor, PgCat and Odyssey**, multiple versions each, on Postgres 17 and 18, with a [results site](https://nihal-pandey-2302.github.io/poolproof/) showing every step's trace and the version where a behaviour broke or got fixed
-- Reproduces **14 upstream bugs** in PgBouncer, PgDog and Supavisor, e.g. PgDog acknowledging only the `BEGIN` of `BEGIN; INSERT; COMMIT` and never committing the insert ([pgdog#1849](https://github.com/pgdogdev/pgdog/issues/1849)), and Supavisor hanging on 4 pipelined requests in 9 of 10 runs ([supavisor#1239](https://github.com/supabase/supavisor/issues/1239))
-- `poolproof scan` reads `pg_stat_statements` exports, Postgres logs or `.sql` files, parses them with the real Postgres parser, and flags queries that break under transaction pooling, checked against what your pooler version actually did. SARIF output for code scanning
-- Runs real drivers (psycopg, pgx, node-postgres, pgjdbc) through each pooler; classifies failures as silent, error or hang, and separates documented limitations from bugs
-- Ships as signed binaries for Linux, macOS and Windows (SHA256SUMS + build attestation) and as a GitHub Action for CI
+<a href="https://nihal-pandey-2302.github.io/poolproof/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/poolproof-results-dark.png">
+    <img src="assets/poolproof-results-light.png" width="846" alt="poolproof results on Postgres 18.4: 50 scenarios through 24 pooler versions and configurations. 698 pass, 132 fail silently, 95 error or hang, and 136 are documented limitations. The selected cell shows PgDog 0.1.62 answering only the BEGIN of a three-statement query.">
+  </picture>
+</a>
 
-### Contributions
+<p align="center">
+  <sub>poolproof 0.1.1, snapshot of 4 Nov 2026. Columns are the 50 scenarios, rows the 24 pooler versions and configurations.</sub><br>
+  <a href="https://nihal-pandey-2302.github.io/poolproof/">Full results with every trace</a> &nbsp;·&nbsp;
+  <a href="https://nihalpandey.dev/work/poolproof">How it was built</a>
+</p>
 
-**[ParadeDB](https://github.com/paradedb/paradedb) (YC S23) · Rust · PostgreSQL · Tantivy** · 3 merged, 787 lines across 15+ files
+- **50 scenarios** through **PgBouncer, PgDog, Supavisor, PgCat and Odyssey**, several versions of each, on Postgres 17 and 18.
+- Built from **14 upstream issues**, each with the versions where it reproduces or stays fixed. PgDog answers only the `BEGIN` of `BEGIN; INSERT; COMMIT` and never commits the insert if the client disconnects ([pgdog#1849](https://github.com/pgdogdev/pgdog/issues/1849)). Supavisor hangs on 4 pipelined requests in 9 of 10 runs ([supavisor#1239](https://github.com/supabase/supavisor/issues/1239)).
+- `poolproof scan` reads `pg_stat_statements` exports, Postgres logs or `.sql` files and flags the queries that break under transaction pooling, checked against what your pooler version actually did.
+- Runs real drivers (psycopg, pgx, node-postgres, pgjdbc). Failures are classed as silent, error or hang, and documented limitations are kept apart from bugs.
+- Ships as signed binaries for Linux, macOS and Windows, and as a GitHub Action for CI.
+
+### [ParadeDB](https://github.com/paradedb/paradedb) (YC S23) · Rust · PostgreSQL · Tantivy
+
+**3 pull requests merged, 867 lines across 15 files.**
 
 | PR | Status | What it does |
 |---|---|---|
-| [#4763](https://github.com/paradedb/paradedb/pull/4763) | ✅ Merged | `JoinScan` returned wrong rows on self-joins with duplicate sort keys. Traced it to late materialization in the optimizer and rewrote physical projection to bind columns by index instead of by name; caught a misbinding in my own fix during review and rebuilt it |
-| [#4924](https://github.com/paradedb/paradedb/pull/4924) | ✅ Merged | Nested `ExecutorRun` panicked in `fake_aminsertcleanup` on PG16. Found a second bug on the recursive DML path mid-review, then replaced the depth counter with an RAII `FrameGuard` so every nesting level gets its own frame |
-| [#4765](https://github.com/paradedb/paradedb/pull/4765) | ✅ Merged | Removed `ctid` from `SearchIndexScore` in favour of batched lookups, folding 5 duplicated ctid-lookup blocks into a single helper across 6 execution paths |
-| [#5093](https://github.com/paradedb/paradedb/issues/5093) | 📝 Proposed | Replace the `resolve_physical_index` heuristic with explicit column lineage tracking, the structural follow-up to #4763 |
+| [#4763](https://github.com/paradedb/paradedb/pull/4763) | <img src="assets/status-merged.png" height="24" alt="Merged"> | `JoinScan` returned wrong rows when a self-join sorted on a column name both sides share. Late materialization was deduplicating columns by name, so I rewrote physical projection to bind them by index. A second case run during review showed my fix misbinding, and I rebuilt it. [Case study](https://nihalpandey.dev/work/joinscan-wrong-rows) |
+| [#4924](https://github.com/paradedb/paradedb/pull/4924) | <img src="assets/status-merged.png" height="24" alt="Merged"> | A nested `ExecutorRun` panicked in `fake_aminsertcleanup` on PG16. Review found a second bug in my first fix, on the recursive DML path, so I replaced its depth counter with an RAII `FrameGuard` that gives every nesting level its own frame. [Case study](https://nihalpandey.dev/work/nested-executor-run) |
+| [#4765](https://github.com/paradedb/paradedb/pull/4765) | <img src="assets/status-merged.png" height="24" alt="Merged"> | Removed `ctid` from `SearchIndexScore` in favour of batched lookups, folding 5 duplicated ctid-lookup blocks into one helper used by 6 execution paths. |
+| [#5093](https://github.com/paradedb/paradedb/issues/5093) | <img src="assets/status-proposed.png" height="24" alt="Proposed"> | Replace the `resolve_physical_index` heuristic with explicit column lineage tracking: the structural follow-up to #4763. |
 
----
+## Experience
 
-## Hackathons
+**Senior Founding Engineer & Tech Lead · [Tvaram](https://tvaram.com/)**<br>
+<sub>Bengaluru · June 2026 – present</sub>
 
-| Year | Achievement | Prize |
-|------|-------------|-------|
-| 2026 | 1st Prize, UK AI Agent Hackathon, Kaspa Track ([KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)) | USD 1,000 |
-| 2026 | 3 prizes at Kaspathon (Top 5 Main Prize, Real-Time Data, Most Creative Use of Kaspa), 500+ global teams | USD 1,200 |
-| 2025 | 1st place, Andromeda aOS Buildathon, 2,500+ global teams ([A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)) | USD 2,500 |
-| 2025 | Global Top-Tier Finalist, Kraken Forge Hackathon, Performance Optimization ([kraken-rs](https://github.com/Nihal-Pandey-2302/kraken-rs)) | — |
-| 2024 | Winner, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants | INR 100K |
-| 2024 | Winner, Graph-e-thon 2.0, Graphic Era TBI | INR 175K |
+- Built the backend for both products solo, and own it end to end: **[Tasvam](https://tasvam.ai/)**, the data intelligence layer of the Tvaram ecosystem, and **[MailTitan](https://mailtitan.ai/)**, enterprise email sending infrastructure for high-volume, mission-critical delivery. Both are launching soon.
+- Promoted from Founding Engineer to Senior Founding Engineer & Tech Lead within three months.
+- Leading a team of engineers.
 
----
+**Cybersecurity Research Intern · Prime Minister's Office (PMO), Government of India**<br>
+<sub>New Delhi · June – Sept 2025</sub>
+
+- Wrote Tokio-based Rust tooling that automated vulnerability scanning across critical government infrastructure, cutting manual assessment time by **over 60%** with no downtime during rollout.
+- Threat-modelling workflows I built were picked up by **2 internal teams**.
+- Details under NDA.
+
+**B.Tech, Electronics Engineering · Rajiv Gandhi Institute of Petroleum Technology**<br>
+<sub>2022 – 2026</sub>
 
 ## Selected Projects
 
-**[KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)** · Python · FastAPI · React · WebSockets · Kaspa SDK · [Live Demo](https://kaspaswarm.vercel.app/)\
-Autonomous AI agents post, bid on, solve and settle tasks as real Kaspa transactions, with an LLM verifier checking results before payment. Auction, escrow, transport and LLM services behind a React dashboard; PyTest, CI and one-command Docker Compose.
+<a href="https://kaspaswarm.vercel.app/"><img align="left" width="36%" src="assets/kaspaswarm.png" alt="The KaspaSwarm dashboard"></a>
 
-**[Kraken Market Data SDK](https://github.com/Nihal-Pandey-2302/kraken-rs)** · Rust · Tokio · Serde · WebSockets\
-Async WebSocket ingestion benchmarked at **648,000 msgs/sec** via zero-copy deserialization and ring-buffer reuse; 100% message delivery across 50+ simulated network partitions.
+**[KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)** &nbsp;·&nbsp; [Live demo](https://kaspaswarm.vercel.app/)<br>
+<sub>Python · FastAPI · React · WebSockets · Kaspa SDK</sub>
 
-**[Ethereum EVM Indexer](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)** · Rust · Tokio · Axum · SQLx · PostgreSQL\
-Indexed **10M+ transactions** with atomic SQL transactions: zero data-integrity failures across crash and block-reorg tests, idempotent reorg detection and rollback, read API on Axum.
+Autonomous AI agents post, bid on, solve and settle tasks as real Kaspa transactions, with an LLM verifier checking results before payment. Auction, escrow, transport and LLM services behind a React dashboard.
 
-**[Solana Stablecoin Standard](https://github.com/Nihal-Pandey-2302/sss-solana-stablecoin-sdk)** · Rust · Anchor · Token-2022 · TypeScript · [Live Demo](https://sss-solana-stablecoin-sdk.vercel.app/)\
-OpenZeppelin-style SDK for Solana stablecoins in three tiers: minimal, compliant (Transfer Hook blacklist, Permanent Delegate seizure) and private (ZK Confidential Transfers PoC). TypeScript SDK, 15-command CLI, Helius indexer, admin dashboard; **19/19 Anchor tests** on Devnet.
+<br clear="left">
 
-**[A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)** · Solidity · Hardhat · IPFS · React\
+<a href="https://nihalpandey.dev/work/evm-indexer"><img align="left" width="36%" src="assets/evm-indexer.png" alt="1 Postgres transaction per block, checkpoint included"></a>
+
+**[Ethereum EVM Indexer](https://github.com/Nihal-Pandey-2302/rust-evm-indexer)** &nbsp;·&nbsp; [Case study](https://nihalpandey.dev/work/evm-indexer)<br>
+<sub>Rust · Tokio · Axum · SQLx · PostgreSQL</sub>
+
+Each block and the sync checkpoint commit in **one Postgres transaction**. Reorgs roll back to the fork point, up to 64 blocks; writes are idempotent, logs included. 11 integration tests against a real Postgres.
+
+<br clear="left">
+
+<a href="https://sss-solana-stablecoin-sdk.vercel.app/"><img align="left" width="36%" src="assets/solana-stablecoin-standard.png" alt="The Solana Stablecoin Standard admin dashboard on Devnet"></a>
+
+**[Solana Stablecoin Standard](https://github.com/Nihal-Pandey-2302/sss-solana-stablecoin-sdk)** &nbsp;·&nbsp; [Live demo](https://sss-solana-stablecoin-sdk.vercel.app/)<br>
+<sub>Rust · Anchor · Token-2022 · TypeScript</sub>
+
+OpenZeppelin-style SDK for Solana stablecoins in three tiers: minimal, compliant (Transfer Hook blacklist, Permanent Delegate seizure) and private (ZK Confidential Transfers PoC). **19/19 Anchor tests** on Devnet.
+
+<br clear="left">
+
+<a href="https://github.com/Nihal-Pandey-2302/ARIA-QIE"><img align="left" width="36%" src="assets/aria.png" alt="1st of 2,500+ teams, Andromeda aOS Buildathon"></a>
+
+**[A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)**<br>
+<sub>Solidity · Hardhat · IPFS · React</sub>
+
 RWA tokenization protocol: ERC-721 minting, on-chain marketplace and fractionalized ownership, with IPFS-anchored metadata and on-chain document hash verification.
 
-More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories), including Solana Job Queue, Solana Webhook Processor, InjectiveQL, EVM Event Watchdog and VatanPay.
+<br clear="left">
 
----
+More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories), including the Kraken Market Data SDK, Solana Job Queue, Solana Webhook Processor, InjectiveQL, EVM Event Watchdog and VatanPay.
+
+## Hackathons
+
+| Year | Result | Prize |
+|---|---|---|
+| 2026 | **1st Prize**, UK AI Agent Hackathon, Kaspa Track ([KaspaSwarm](https://github.com/Nihal-Pandey-2302/kaspaswarm)) | USD 1,000 |
+| 2026 | **3 prizes** at Kaspathon (Top 5 Main Prize, Real-Time Data, Most Creative Use of Kaspa), 500+ global teams | USD 1,200 |
+| 2025 | **1st place**, Andromeda aOS Buildathon, 2,500+ global teams ([A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)) | USD 2,500 |
+| 2025 | **Global Top-Tier Finalist**, Kraken Forge Hackathon, Performance Optimization ([kraken-rs](https://github.com/Nihal-Pandey-2302/kraken-rs)) | |
+| 2024 | **Winner**, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants | INR 100K |
+| 2024 | **Winner**, Graph-e-thon 2.0, Graphic Era TBI | INR 175K |
 
 ## Skills
 
@@ -117,5 +134,5 @@ More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories)
 | **Infra** | Docker Compose, GitHub Actions, AWS (EC2, S3), Prometheus/Grafana |
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nihal-Pandey-2302&label=Profile%20Views&color=0e75b6&style=flat"/>
+  <sub>The longer version, with the case studies, is at <a href="https://nihalpandey.dev/">nihalpandey.dev</a>.</sub>
 </p>
