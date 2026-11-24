@@ -118,8 +118,8 @@ More in [my repositories](https://github.com/Nihal-Pandey-2302?tab=repositories)
 | 2026 | **3 prizes** at Kaspathon (Top 5 Main Prize, Real-Time Data, Most Creative Use of Kaspa), 500+ teams |
 | 2025 | **1st place**, Andromeda aOS Buildathon, 2,500+ teams ([A.R.I.A.](https://github.com/Nihal-Pandey-2302/ARIA-QIE)) |
 | 2025 | **Finalist**, Kraken Forge Hackathon, Performance Optimization ([kraken-rs](https://github.com/Nihal-Pandey-2302/kraken-rs)) |
+| 2025 | **Winner**, Graph-e-thon 2.0, Graphic Era TBI |
 | 2024 | **Winner**, Smart India Hackathon, NTRO Govt. of India, 50,000+ participants |
-| 2024 | **Winner**, Graph-e-thon 2.0, Graphic Era TBI |
 
 <p align="center">
   <sub>The longer version, with the case studies, is at <a href="https://nihalpandey.dev/">nihalpandey.dev</a>.</sub>
