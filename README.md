@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://nihalpandey.dev/"><img src="assets/btn-site.png" height="36" alt="nihalpandey.dev"></a>&nbsp;
-  <a href="https://linkedin.com/in/nihal-pandey-8529b6257/"><img src="assets/btn-linkedin.png" height="36" alt="LinkedIn"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/nihalpandeydev/"><img src="assets/btn-linkedin.png" height="36" alt="LinkedIn"></a>&nbsp;
   <a href="https://x.com/PandeyNihal23"><img src="assets/btn-x.png" height="36" alt="X"></a>&nbsp;
   <a href="mailto:pandeynihal232@gmail.com"><img src="assets/btn-email.png" height="36" alt="Email"></a>
 </p>
